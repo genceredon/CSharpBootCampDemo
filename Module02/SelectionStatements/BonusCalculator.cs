@@ -31,9 +31,15 @@ namespace Module02
 				Console.WriteLine();
 				Console.WriteLine("YES...you get a bonus!");
 				bonusAmount = 1000.00M;
-			}
-			Console.WriteLine("Bonus for the year: {0:C}",
-								bonusAmount);
+            }
+            else
+            {
+				bonusAmount = 100.00M;
+            }
+			
+			Console.WriteLine("Bonus for the year: {0:C}", bonusAmount);
+			//Console.WriteLine($"Bonus for the year: {bonusAmount}");
+			
 			Console.ReadLine();
 		}
 
@@ -61,7 +67,7 @@ namespace Module02
 								bonusAmount);
 
 			Console.WriteLine("Additional Bonus...");
-			Console.Write("Are you an houly employee? Please input Y/y or N/n: ");
+			Console.Write("Are you an hourly employee? Please input Y/y or N/n: ");
 			isHourlyEmployee = Console.ReadLine();
 
             if (isHourlyEmployee?.ToLower() == "y")
@@ -71,7 +77,7 @@ namespace Module02
                
 				if (hours > 40)
                 {
-					bonusAmount += 500;
+					bonusAmount += 500; //bonusAmount = bonusAmount + 500
                 }
                 else
                 {

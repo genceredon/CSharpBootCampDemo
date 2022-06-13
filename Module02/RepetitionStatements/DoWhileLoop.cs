@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Module02.RepetitionStatements
+namespace Module02
 {
     internal static class DoWhileLoop
     {
