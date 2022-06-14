@@ -4,7 +4,8 @@
     {
         private static void Main()
         {
-            //BonusCalculator.BonusCalculatorNestedIf();
+            BonusCalculator.BonusCalculatorNestedIf();
+            
             //CityPicker.SwitchCaseSampleCode();
             //LargestValue.LargestValueDemoCode();
 
