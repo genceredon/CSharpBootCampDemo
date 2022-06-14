@@ -4,6 +4,9 @@
     {
         private static void Main()
         {
+
+            Output.Text();
+
             //BonusCalculator.BonusCalculatorNestedIf();
             //CityPicker.SwitchCaseSampleCode();
             //LargestValue.LargestValueDemoCode();
@@ -11,7 +14,7 @@
             //WhileLoop.InputValuesLoop();
             //ForLoop.InputValuesLoop();
             //ForEachLoop.ForEachLoopSampleCode();
-            DoWhileLoop.InputValuesLoop();
+            //DoWhileLoop.InputValuesLoop();
 
             //int aValue = 100, bValue = 1000;
             //string sValue = "CS158";
