@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SW1
 {
-    internal class Output
+    static class Output
     {
-        internal static void Text()
+        public static void Text()
         {
 
             string result = "";
@@ -45,6 +45,7 @@ namespace SW1
 
 
 
+
                 if (x > 0)
                 {
                     x = x - 1;
@@ -54,5 +55,8 @@ namespace SW1
             }
             Console.WriteLine(result);
         }
+
+
+
     }
 }
