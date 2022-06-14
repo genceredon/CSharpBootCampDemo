@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Module02
 {
-    internal static class BonusCalculator
+    internal class BonusCalculator
     {
         internal static void BonusCalculatorDemoCode()
         {
@@ -43,7 +43,7 @@ namespace Module02
 			Console.ReadLine();
 		}
 
-		internal static void BonusCalculatorNestedIf()
+		private void BonusCalculatorNestedIf()
 		{
 			decimal salesForYear;
 			decimal bonusAmount = 0M;
