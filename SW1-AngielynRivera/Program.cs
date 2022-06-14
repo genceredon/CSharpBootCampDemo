@@ -5,7 +5,8 @@
         public static void Main()
         {
             //PartOne.PartOneSW();
-            PartTwo.PartTwoSW();
+            //PartTwo.PartTwoSW();
+            PartThree.PartThreeSW();
 
         }
     }
