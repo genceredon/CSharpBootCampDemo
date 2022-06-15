@@ -37,6 +37,8 @@ namespace Module04.OperatorOverloading
             Box3 = Box1 + Box2; // This can actually be visialized as:
                                 //Box3 = Box.+ (Box1, Box2);
 
+            bool isItEqual = Box1 == Box2;
+
             // volume of box 3
             volume = Box3.getVolume();
             Console.WriteLine("Volume of Box3 : {0}", volume);
