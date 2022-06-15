@@ -10,7 +10,7 @@ namespace SW1_AngielynRivera
     {
         public static void PartOneSW()
         {
-            int result = 0; //this variable will hold the final result
+            int result = 0; //this variable will hold the final result.
             int x = 6; //declare a variable x and set it to 6
 
             while (x > 3) //execute these statements as long as x is greater than 3. (x is equal to 6 as we have declared)
