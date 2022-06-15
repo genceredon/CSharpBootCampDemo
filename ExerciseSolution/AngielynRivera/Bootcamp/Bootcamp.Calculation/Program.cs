@@ -12,7 +12,7 @@ namespace Bootcamp.Calculation
             Console.WriteLine("Calculate Numbers. Enter 2 number and we return result");
             Console.WriteLine("Enter 1st Number: ");
             num1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter 2nd Number: ");
+            Console.WriteLine("Enter 2nd Numberr: ");
             num2 = Convert.ToInt32(Console.ReadLine());
             result = Add(num1, num2);
             Console.WriteLine("Add : " + result.ToString());
