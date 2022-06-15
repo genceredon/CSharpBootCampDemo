@@ -1,6 +1,6 @@
 ﻿namespace Module04
 {
-    public class Inheritance
+    public class InheritanceSampleCode
     {
         public void InheritanceDemo()
         {
@@ -9,8 +9,15 @@
             Rect.setHeight(5);
             Rect.setWidth(7);
 
+            Square squareObj = new Square();
+            squareObj.DispInfo();
+            squareObj.setHeight(10);
+            squareObj.setWidth(7);
+
             // Print the area of the object.
             Console.WriteLine("Total area: {0}", Rect.getArea());
+            Console.WriteLine("Total area: {0}, Rectangle Area: {1}", squareObj.GetArea(), Rect.getArea());
+            Console.WriteLine($"Total area: {squareObj.GetArea()}, Rectangle Area: {Rect.getArea()}");
             Console.WriteLine();
             Console.WriteLine("\n=====================================");
             Console.WriteLine("End of program...");
@@ -52,5 +59,19 @@
         {
             Console.WriteLine("Derived Class Rectangle");
         }
+    }
+
+    public class Square : Shape
+    {
+        public double GetArea() 
+        { 
+            return (Math.Pow(height,2)); 
+        }
+
+        public override void DispInfo()
+        {
+            Console.WriteLine("Derived Class Square");
+        }
+
     }
 }
