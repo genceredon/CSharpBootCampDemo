@@ -37,5 +37,21 @@ namespace Module04.OperatorOverloading
             box.height = b.height + c.height;
             return box;
         }
+
+        public static bool operator ==(Box b, Box c)
+        {
+            bool isEqual = b.width == c.width && b.height == c.height 
+                && b.length == c.length;
+     
+            return isEqual;
+        }
+
+        public static bool operator !=(Box b, Box c)
+        {
+            bool isNotEqual = b.width != c.width || b.height != c.height
+                || b.length != c.length;
+
+            return isNotEqual;
+        }
     }
 }

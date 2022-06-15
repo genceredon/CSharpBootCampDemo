@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Module04.DynamicPolymorphism
 {
-    internal class DynamicPolymorphism
+    internal class DynamicPolymorphismSample
     {
         public void DisplayAnimalInfo()
         {
@@ -33,7 +33,7 @@ namespace Module04.DynamicPolymorphism
 
             objBase = new Derived();
             objBase.Show(); //Output--> Show From Derived Class.
-
+            objBase.Show1();
             Console.WriteLine();
             Console.WriteLine("\n=====================================");
             Console.WriteLine("End of program...");
