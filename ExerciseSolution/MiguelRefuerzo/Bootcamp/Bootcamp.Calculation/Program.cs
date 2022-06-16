@@ -8,23 +8,26 @@ namespace Bootcamp.Calculation
         {
             int num1, num2;
             int result;
+            bool repeat = true;
+            Addition add; // Addition class
 
-            while (true)
+            while (repeat) // To repeat the entire process
             {
-                Console.WriteLine("Do you like to: \na. Add\nb. Subtract\nc. Multiply\nd. Divide\ne. Exit");
+                Console.Clear(); // Clear cmd
+                DisplayUI.UserInterface(); // Display the UI
                 string choice = Console.ReadLine();
 
-                switch (choice.ToLower())
+                switch (choice.ToLower()) 
                 {
                     case "a":
                         Console.Clear();
-                        Console.WriteLine("Calculate Numbers. Enter 2 number and we return result");
-                        Console.WriteLine("Enter 1st Number: ");
+                        DisplayUI.UserInterfaceProblem();
+                        DisplayUI.UserInterfaceFirstInput();
                         num1 = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Enter 2nd Number: ");
+                        DisplayUI.UserInterfaceSecondInput();
                         num2 = Convert.ToInt32(Console.ReadLine());
-                        result = Add(num1, num2);
-                        Console.WriteLine("Add : " + result.ToString());
+                        add = new Addition();
+                        add.DisplayResult(num1,num2);
                         Console.ReadLine();
                         break;
                     case "b":
@@ -60,19 +63,15 @@ namespace Bootcamp.Calculation
                         Console.WriteLine("Add : " + result.ToString());
                         Console.ReadLine();
                         break;
+                    case "e":
+                        repeat = false; // To exit the process
+                        break;
                     default:
-                        Environment.Exit(0);
                         break;
                 }
             }
             
         }
-
-        public static int Add(int firstNumber, int secondNumber)
-        {
-            return firstNumber + secondNumber;
-        }
-
         public static int Subtract(int firstNumber, int secondNumber)
         {
             return firstNumber - secondNumber;
