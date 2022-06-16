@@ -8,6 +8,7 @@ namespace Bootcamp.Calculation
         {
             int num1, num2;
             int result;
+            var test = 0;
 
             Console.WriteLine("Calculate Numbers. Enter 2 number and we return result");
             Console.WriteLine("Enter 1st Number: ");

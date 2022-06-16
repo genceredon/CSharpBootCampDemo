@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module03", "Module03\Module
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module04", "Module04\Module04.csproj", "{8EE9E0BF-77A3-4687-A857-0A7FAF6EE84A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module05", "Module05\Module05.csproj", "{F7371EF1-B267-4278-AF42-6565CBAF2909}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module05", "Module05\Module05.csproj", "{F7371EF1-B267-4278-AF42-6565CBAF2909}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SW1", "SW1\SW1.csproj", "{52DDA531-9B81-4B67-B6CF-C3F8EC12EEFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SW1", "SW1\SW1.csproj", "{52DDA531-9B81-4B67-B6CF-C3F8EC12EEFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootcamp.Calculation", "ExerciseSolution\MiguelRefuerzo\Bootcamp\Bootcamp.Calculation\Bootcamp.Calculation.csproj", "{7B4DF59D-3712-4351-9930-3D53A87F74E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{52DDA531-9B81-4B67-B6CF-C3F8EC12EEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52DDA531-9B81-4B67-B6CF-C3F8EC12EEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52DDA531-9B81-4B67-B6CF-C3F8EC12EEFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B4DF59D-3712-4351-9930-3D53A87F74E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4DF59D-3712-4351-9930-3D53A87F74E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B4DF59D-3712-4351-9930-3D53A87F74E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B4DF59D-3712-4351-9930-3D53A87F74E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
