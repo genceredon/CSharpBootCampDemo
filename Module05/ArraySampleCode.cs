@@ -14,16 +14,14 @@ namespace Module05
             double avg;
             double distance;
             string inValue;
-            int[] score = new int[10];
+            int[] score = new int[10]; //0-9 index
 
             // Values are entered
             for (int i = 0; i < score.Length; i++)
             {
-                Console.Write("Enter Score{0}: ",
-                    i + 1);
+                Console.Write("Enter Score{0}: ", i + 1);
                 inValue = Console.ReadLine();
                 score[i] = Convert.ToInt32(inValue);
-
             }
 
             // Values are summed

@@ -4,15 +4,15 @@
     {
         public void VaryingArguments()
         {
-            DisplayItems(1, 2, 3, 5);
+            DisplayItems("Hello" ,1, 2, 3, 5);
 
             int[] anArray = new int[5] { 100, 200, 300, 400, 500 };
 
-            DisplayItems(anArray);
-            DisplayItems(1500, anArray[1] * anArray[2]);
+            DisplayItems("Hello", anArray);
+            DisplayItems("Hello", 1500, 3000, anArray[1] * anArray[2]);
         }
 
-        private static void DisplayItems(params int[] item)
+        private static void DisplayItems(string name, params int[] item)
         {
             for (int i = 0; i < item.Length; i++)
             {

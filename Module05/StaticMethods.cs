@@ -13,7 +13,7 @@
             DisplayOutput(waterDepth, "waterDepth Array\n\n");
 
             // Copies values from waterDepth to w
-            Array.Copy(waterDepth, 2, w, 0, 5);
+            Array.Copy(waterDepth, 2, w, 1, 7);
 
             //Sorts Array w in ascending order
             Array.Sort(w);
